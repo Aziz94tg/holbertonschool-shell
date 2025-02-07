@@ -1,2 +1,0 @@
-#!/bin/bash
-echo $(echo $(echo $WATER | tr 'w.a.t.e.r' '0-9') + $(echo $STIR | tr 't.i.r.s' '0-9') | bc) | tr '0-9' 'b.e.s.t.c.h.o.l'
